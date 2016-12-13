@@ -24,3 +24,15 @@ https://developer.wmata.com/docs/services/5476364f031f590f38092507/operations/54
 Try: 
 - Farragut North to L'Enfant Plaza
 - NoMa Gallaudet to Smithsonian
+
+
+Have:
+- Possible paths between A and B
+- Estimated travel times for each of the possible paths between A and B
+
+Need:
+- Line colors involved in each possible path from A to B
+- 
+
+To Do:
+- 
