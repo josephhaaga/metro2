@@ -36,3 +36,7 @@ Need:
 
 To Do:
 - 
+
+Notes:
+
+I never considered route3. Taking the red line from Gallery Pl to Metro Center to catch the Blue line is probably faster than going all the way to L'Enfant Plaza
