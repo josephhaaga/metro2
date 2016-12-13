@@ -1,0 +1,23 @@
+<html>
+
+	<body>
+		<div class="image-container" style="position:relative">
+			<img src="wmata_map.jpg" style="height:100%" />
+		</div>
+	</body>
+
+	<script src="jquery-3.1.1.min.js"></script>
+
+	<script>
+	jQuery(document).click(
+		function(e){
+			var x_denom = jQuery('img').width();
+			var y_denom = jQuery('img').height();
+			console.log((e.offsetX/x_denom)+" "+(e.offsetY/y_denom));
+			jQuery('.image-container').append("<div style='background-color:red; height:20px; border-radius:50%; width:20px;position:absolute;top:" + (((e.offsetY/y_denom)*100)-2) + "%;left:" + (((e.offsetX/x_denom)*100)-2) + "%;'></div>")
+		}
+	);
+	</script>
+
+
+</html>
